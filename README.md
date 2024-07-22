@@ -2,7 +2,7 @@
 
 ## Git Repository
 
-Repository URL: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
+Repository URL: [https://github.com/vyendala/blog-post](https://github.com/vyendala/blog-post)
 
 ## Report
 
