@@ -15,19 +15,19 @@ Repository URL: [https://github.com/vyendala/blog-post](https://github.com/vyend
    - Created a GitHub repository and linked it to the local repository with `git remote add origin <repository-URL>`.
 
 2. **Create Database and Configure Laravel**
-   - Created a MySQL database named `blog_app_db`.
+   - Created a MySQL database named `laravel`.
    - Configured the `.env` file to connect Laravel with the MySQL database:
      ```plaintext
      DB_CONNECTION=mysql
      DB_HOST=127.0.0.1
      DB_PORT=3306
-     DB_DATABASE=blog_app_db
+     DB_DATABASE=laravel
      DB_USERNAME=root
      DB_PASSWORD=
      ```
 
 3. **Define Routes**
-   - Defined resource routes for posts in `routes/web.php`:
+   - Defined resource routes for posts in `routes/posts.php`:
      ```php
      Route::resource('posts', PostController::class);
      ```
