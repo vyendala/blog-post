@@ -1,0 +1,14 @@
+html, body{
+    min-height: 100vh;
+}
+
+.back{
+    rotate: 180deg;
+}
+
+.form-background{
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 18px #3b3926;
+}
